@@ -1,0 +1,25 @@
+p, span {
+    color: #4a4a4a;
+    font-size: 1rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+span {
+    padding: 0 0.5em;
+}

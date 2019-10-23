@@ -1,0 +1,19 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0.5em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+span {
+    padding: 0 0.5em;
+}
