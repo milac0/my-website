@@ -14,7 +14,7 @@ const Experience = () => {
         made me develop skills that are translatable into programming:
       </p>
       <div className="section-skill">
-        <LazyLoad height="160px">
+        <LazyLoad height="150px">
           <img
             className="section-skill-image"
             src={analyticalImg}
@@ -28,7 +28,7 @@ const Experience = () => {
         </p>
       </div>
       <div className="section-skill">
-        <LazyLoad height="160px">
+        <LazyLoad height="150px">
           <img className="section-skill-image" src={patternImg} alt="pattern" />
         </LazyLoad>
         <h2>Great pattern recognition</h2>
@@ -38,7 +38,7 @@ const Experience = () => {
         </p>
       </div>
       <div className="section-skill">
-        <LazyLoad height="160px">
+        <LazyLoad height="150px">
           <img className="section-skill-image" src={adaptiveImg} alt="" />
         </LazyLoad>
         <h2>Adaptable</h2>
