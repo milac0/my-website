@@ -14,7 +14,7 @@ span {
     list-style: none;
     padding-left: 0;
     width: 260px;
-    margin: 0 auto 4em auto;
+    margin: 0 auto;
 }
 
 .contactItem {
@@ -25,15 +25,25 @@ span {
     align-items: center;
 }
 
-.contactTitle {
-    margin: 2em;
-    margin-bottom: 1em;
-}
-
-.contactBody {
+span {
     padding: 0 0.5em;
 }
 
-.otherContacts .contactTitle {
-    font-size: 1.25rem;
+
+input {
+    max-width: 480px;
+    width: 80%;
+    display: block;
+    padding: 1em;
+    margin: 0.25em auto;
+    border: none;
+    border-bottom: 1px solid #4a4a4a;
 }
+
+textarea {
+    display: block;
+    margin: 0.25em;
+    border-radius: 5px;
+}
+
+

@@ -246,6 +246,5 @@ footer {
 
 .invalid-feedback {
   color: #D8000C;
-  font-size: 0.75rem;
-  font-family: 'Roboto', sans-serif;
+  font-size: 0.5rem;
 }

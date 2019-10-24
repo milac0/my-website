@@ -14,7 +14,7 @@ span {
     list-style: none;
     padding-left: 0;
     width: 260px;
-    margin: 0 auto 4em auto;
+    margin: 0 auto 2em auto;
 }
 
 .contactItem {
@@ -27,13 +27,12 @@ span {
 
 .contactTitle {
     margin: 2em;
+}
+
+.otherContacts .contactTitle {
     margin-bottom: 1em;
 }
 
 .contactBody {
     padding: 0 0.5em;
-}
-
-.otherContacts .contactTitle {
-    font-size: 1.25rem;
 }

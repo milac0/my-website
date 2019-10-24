@@ -15,24 +15,24 @@ const Contact = () => {
       <Navbar />
       <main>
         <div className={styles.container}>
-            <h1 className={styles.contactTitle}>
+            <h1>
               You are welcome to leave feedback or just say hello,
             </h1>
           <section>
             <FormContact />
           </section>
           <section className={styles.otherContacts}>
-            <h1 className={styles.contactTitle}>or if you don't feel like filling the forms, contact me via</h1>
+            <h1>or if you don't feel like filling the forms, contact me via</h1>
             <ul className={styles.contacts}>
               <li>
                 <a className={styles.contactItem} href="mailto:mile.balenovic@gmail.com?Subject=Hello">
-                  <img src={mailIcon} alt="github" />
+                  <img className="nav-item" src={mailIcon} alt="github" />
                   <span className={styles.contactBody}>mile.balenovic@gmail.com</span>
                 </a>
               </li>
               <li>
                 <a className={styles.contactItem} href="tel:00385919182865">
-                  <img src={phoneIcon} alt="phone" />
+                  <img className="nav-item" src={phoneIcon} alt="phone" />
                   <span className={styles.contactBody}>+385 91 918-2865</span>
                 </a>
               </li>
@@ -44,7 +44,7 @@ const Contact = () => {
               </li>
               <li>
                 <a className={styles.contactItem} href="skype:mbalenovic?chat">
-                  <img src={skypeIcon} alt="skype" />
+                  <img className="nav-item" src={skypeIcon} alt="skype" />
                   <span className={styles.contactBody}>mbalenovic</span>
                 </a>
               </li>

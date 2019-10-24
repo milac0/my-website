@@ -13,8 +13,8 @@ span {
 .contacts {
     list-style: none;
     padding-left: 0;
-    width: 260px;
-    margin: 0 auto 4em auto;
+    width: 320px;
+    margin: 0 auto;
 }
 
 .contactItem {
@@ -25,15 +25,27 @@ span {
     align-items: center;
 }
 
-.contactTitle {
-    margin: 2em;
-    margin-bottom: 1em;
-}
-
-.contactBody {
+span {
     padding: 0 0.5em;
 }
 
-.otherContacts .contactTitle {
-    font-size: 1.25rem;
+
+input {
+    max-width: 480px;
+    width: 80%;
+    display: block;
+    padding: 0.5em;
+    margin: 0.25em auto;
+    border-radius: 5px;
+}
+
+textarea {
+    display: block;
+    margin: 0.25em;
+    border-radius: 5px;
+}
+
+.button-submit {
+    margin: 0.25em;
+    border-radius: 5px;
 }

@@ -22,7 +22,7 @@ const Contact = () => {
             <FormContact />
           </section>
           <section className={styles.otherContacts}>
-            <h1 className={styles.contactTitle}>or if you don't feel like filling the forms, contact me via</h1>
+            <h1>or if you don't feel like filling the forms, contact me via</h1>
             <ul className={styles.contacts}>
               <li>
                 <a className={styles.contactItem} href="mailto:mile.balenovic@gmail.com?Subject=Hello">

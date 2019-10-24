@@ -30,10 +30,10 @@ span {
     margin-bottom: 1em;
 }
 
-.contactBody {
-    padding: 0 0.5em;
+.otherContacts .contactTitle {
+    margin-bottom: 1em;
 }
 
-.otherContacts .contactTitle {
-    font-size: 1.25rem;
+.contactBody {
+    padding: 0 0.5em;
 }

@@ -1,0 +1,20 @@
+.buttonSubmit {
+    margin: 1em;
+    border-radius: 5px;
+    background: #1f2e3f;
+
+    color: #ffffff;
+    padding: 0.75em 2em;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.buttonSubmit:hover,
+.buttonSubmit:focus {
+    color: #1f2e3f;
+    cursor: pointer;
+    background: #00AEA0;
+}
