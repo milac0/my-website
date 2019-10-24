@@ -1,5 +1,5 @@
 span {
-    color: #3F3D56;
+    color: #4a4a4a;
     font-size: 1rem;
 }
 
@@ -23,7 +23,7 @@ span {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-bottom: 2px solid #F8F8F9;
+    border-bottom: 1px solid #4a4a4a;
 }
 
 .contactTitle {

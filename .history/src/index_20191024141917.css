@@ -20,6 +20,8 @@ body {
 
 header,
 .hero {
+  /* background: #1f2e3f; */
+  /* background: #19427A; */
   background:#3F3D56;
   border-bottom: 0.1px solid #ffffff;
   text-align: center;
@@ -85,6 +87,7 @@ nav ul {
 
 .button-cta,
 .button-home {
+  /* background: #F16334; */
   background: #00AEA0;
   color: #1f2e3f;
   padding: 0.75em 2em;
@@ -97,6 +100,7 @@ nav ul {
 
 .button-cta:hover,
 .button-cta:focus {
+  /* background: #ed4d1c; */
   background: #00C1B1;
   color: #1f2e3f;
   cursor: pointer;
@@ -170,6 +174,7 @@ section {
 .section-skill {
   box-shadow: 2px 2px #F8F8F9;
   border: 2px solid #F8F8F9;
+  /* background: #fafafa; */
   margin-bottom: 1em;
   padding: 0.5em;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import LazyLoad from "react-lazyload";
+import LazyLoad from 'react-lazyload';
 import analyticalImg from "../images/analytical.svg";
 import patternImg from "../images/pattern.svg";
 import adaptiveImg from "../images/adaptive.svg";
@@ -15,11 +15,11 @@ const Experience = () => {
       </p>
       <div className="section-skill">
         <LazyLoad>
-          <img
-            className="section-skill-image"
-            src={analyticalImg}
-            alt="analytical"
-          />
+        <img
+          className="section-skill-image"
+          src={analyticalImg}
+          alt="analytical"
+        />
         </LazyLoad>
         <h2>Analytical and systematic approach</h2>
         <p>
@@ -29,7 +29,7 @@ const Experience = () => {
       </div>
       <div className="section-skill">
         <LazyLoad>
-          <img className="section-skill-image" src={patternImg} alt="pattern" />
+            <img className="section-skill-image" src={patternImg} alt="pattern" />
         </LazyLoad>
         <h2>Great pattern recognition</h2>
         <p>
@@ -39,7 +39,7 @@ const Experience = () => {
       </div>
       <div className="section-skill">
         <LazyLoad>
-          <img className="section-skill-image" src={adaptiveImg} alt="" />
+        <img className="section-skill-image" src={adaptiveImg} alt="" />
         </LazyLoad>
         <h2>Adaptable</h2>
         <p>

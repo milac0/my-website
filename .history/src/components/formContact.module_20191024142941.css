@@ -28,13 +28,13 @@ textarea {
   padding-bottom: 0.25em;
   margin: 0.25em auto;
   border: none;
-  border-bottom: 1px solid #3F3D56;
+  border-bottom: 1px solid #4a4a4a;
   resize: none;
 }
 
 input[type="text"],
 textarea[type="text"] {
-  color: #3F3D56;
+  color: #363636;
   font-size: 1.25rem;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
@@ -42,14 +42,14 @@ textarea[type="text"] {
 
 input::placeholder,
 textarea::placeholder {
-  color: #3F3D56;
+  color: #363636;
   font-size: 1.25rem;
   font-weight: 200;
   font-family: "Roboto", sans-serif;
 }
 
 .description {
-  color: #3F3D56;
+  color: #363636;
   font-size: 1.25rem;
   font-weight: 700;
   margin: 0;

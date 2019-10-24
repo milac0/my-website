@@ -7,6 +7,8 @@ import {
 import Home from './pages/Home'
 import Contact from './pages/Contact';
 
+console.log(process.env.REACT_APP_API_KEY)
+
 function App() {
   return (
       <Router>
