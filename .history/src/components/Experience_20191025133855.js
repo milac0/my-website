@@ -3,6 +3,7 @@ import LazyLoad from "react-lazyload";
 import analyticalImg from "../images/analytical.svg";
 import patternImg from "../images/pattern.svg";
 import adaptiveImg from "../images/adaptive.svg";
+import Skeleton from 'react-loading-skeleton';
 
 const Experience = () => {
   return (

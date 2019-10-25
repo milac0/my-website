@@ -190,7 +190,7 @@ section {
 .section-skill-image {
   display: block;
   margin: 0 auto 1em auto;
-  max-width: 70%;
+  max-width: 300px;
   height: auto;
 }
 
@@ -297,8 +297,7 @@ footer {
   }
   .section-skill {
     flex: 1 1 200px;
-    padding: 1em;
-  }
+      }
 
   .section-skill-image {
     height: auto; 

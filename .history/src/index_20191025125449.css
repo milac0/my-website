@@ -194,6 +194,12 @@ section {
   height: auto;
 }
 
+.section-skill-image::before {
+  display: block;
+  content: '';
+  padding-top: calc(100% * 2 / 3);
+}
+
 article {
   background: #F8F8F9;
   padding: 1em 2em 0.5em 1.5em;
@@ -297,8 +303,7 @@ footer {
   }
   .section-skill {
     flex: 1 1 200px;
-    padding: 1em;
-  }
+      }
 
   .section-skill-image {
     height: auto; 

@@ -3,6 +3,7 @@ import LazyLoad from "react-lazyload";
 import analyticalImg from "../images/analytical.svg";
 import patternImg from "../images/pattern.svg";
 import adaptiveImg from "../images/adaptive.svg";
+import Skeleton from 'react-loading-skeleton';
 
 const Experience = () => {
   return (
@@ -13,6 +14,7 @@ const Experience = () => {
         be asking what does it mean to you as a potential employer. Online poker
         made me develop skills that are translatable into programming:
       </p>
+      <Skeleton count={5}/>
       <div className="section-skills">
       <div className="section-skill">
       <div className="section-skill-image-container">

@@ -3,6 +3,7 @@ import LazyLoad from "react-lazyload";
 import analyticalImg from "../images/analytical.svg";
 import patternImg from "../images/pattern.svg";
 import adaptiveImg from "../images/adaptive.svg";
+import Skeleton from 'react-loading-skeleton';
 
 const Experience = () => {
   return (
@@ -15,7 +16,7 @@ const Experience = () => {
       </p>
       <div className="section-skills">
       <div className="section-skill">
-      <div className="section-skill-image-container">
+      <div className="section-skill-image">
         <LazyLoad height={260}>
           <img
             className="section-skill-image"

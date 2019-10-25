@@ -15,15 +15,15 @@ const Experience = () => {
       </p>
       <div className="section-skills">
       <div className="section-skill">
-      <div className="section-skill-image-container">
+
         <LazyLoad height={260}>
           <img
             className="section-skill-image"
-            src={analyticalImg}
+            src=""
+            data-src={analyticalImg}
             alt="analytical"
           />
         </LazyLoad>
-        </div>
         <h2>Analytical and systematic approach</h2>
         <p>
           There is not a lot difference between finding out where error happened

@@ -16,7 +16,7 @@ const Experience = () => {
       <div className="section-skills">
       <div className="section-skill">
       <div className="section-skill-image-container">
-        <LazyLoad height={260}>
+        <LazyLoad height={560}>
           <img
             className="section-skill-image"
             src={analyticalImg}

@@ -193,6 +193,12 @@ section {
   max-width: 70%;
   height: auto;
 }
+/* lazyload reflow */
+.section-skill-image-container {
+  background-color: #F8F8F9;
+  width: 300px;
+  margin: 0 auto;
+}
 
 article {
   background: #F8F8F9;
@@ -297,8 +303,7 @@ footer {
   }
   .section-skill {
     flex: 1 1 200px;
-    padding: 1em;
-  }
+      }
 
   .section-skill-image {
     height: auto; 

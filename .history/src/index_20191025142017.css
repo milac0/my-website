@@ -291,14 +291,14 @@ footer {
 
   .section-skills {
     background: #F8F8F9;
+    padding: 1em;
     display: flex;
     flex-direction: row;
     align-items: baseline;
   }
   .section-skill {
     flex: 1 1 200px;
-    padding: 1em;
-  }
+      }
 
   .section-skill-image {
     height: auto; 

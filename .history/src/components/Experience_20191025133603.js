@@ -3,6 +3,7 @@ import LazyLoad from "react-lazyload";
 import analyticalImg from "../images/analytical.svg";
 import patternImg from "../images/pattern.svg";
 import adaptiveImg from "../images/adaptive.svg";
+import Skeleton from 'react-loading-skeleton';
 
 const Experience = () => {
   return (
@@ -17,11 +18,11 @@ const Experience = () => {
       <div className="section-skill">
       <div className="section-skill-image-container">
         <LazyLoad height={260}>
-          <img
+          {<img
             className="section-skill-image"
             src={analyticalImg}
             alt="analytical"
-          />
+          /> || <Skeleton />}
         </LazyLoad>
         </div>
         <h2>Analytical and systematic approach</h2>

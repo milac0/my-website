@@ -75,7 +75,7 @@ const Projects = () => {
             />
           </LazyLoad>
         </a>
-        <p>FortAwesome, Moment, Lodash</p>
+        <p>Material-UI, Bootstrap</p>
       </article>
       <article>
         <h2>This website</h2>
