@@ -11,7 +11,7 @@ const Experience = () => {
       <p className="section-body">
         I have a work experience as a self-employed online poker player. You may
         be asking what does it mean to you as a potential employer. Online poker
-        made me develop skills that are translatable into programming
+        made me develop skills that are translatable into programming:
       </p>
       <div className="section-skills">
       <div className="section-skill">
