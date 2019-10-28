@@ -1,0 +1,12 @@
+[build]
+base = "my-website/"
+publish = "my-website/build/"
+command = "npm build"
+
+[context.deploy-preview.environment]
+REACT_APP_API_KEY=user_F4k7GFosraOQoGS30lDJh
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
