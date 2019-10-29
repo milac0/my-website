@@ -194,8 +194,7 @@ section {
     margin: 0 auto 1em auto;
 }
 
-.section-skill-image,
-.project-image {
+.section-skill-image {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -224,7 +223,11 @@ article h2 {
 }
 
 .project-image {
+  height: 100%;
   width: 70%;
+  position: absolute;
+  left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
   margin: auto;
@@ -309,18 +312,14 @@ footer {
     flex: 1 1 200px;
     padding: 1em;
   }
+
   .projects {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill,minmax(340px, 0.75fr));
     grid-gap: 0.5em;
    }
-   .projects article {
-    margin: 0;
-}
-}
 
-@media (min-width:1040px) {
-  .projects {
-    grid-template-columns: repeat(3, 1fr);
-   }
+    .projects article {
+    margin: 0;
+  } 
 }

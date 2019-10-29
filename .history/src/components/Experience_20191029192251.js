@@ -1,5 +1,6 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
+import ReactImageAppear from 'react-image-appear';
 import analyticalImg from "../images/analytical.svg";
 import patternImg from "../images/pattern.svg";
 import adaptiveImg from "../images/adaptive.svg";
@@ -17,13 +18,14 @@ const Experience = () => {
       <div className="section-skill">
       <div className="section-skill-image-container">
         <LazyLoad>
-          <div className="responsive-container">
-          <img
+        <ReactImageAppear 
+
+    animation="zoomIn"
+    animationDuration="1s"
             className="section-skill-image"
             src={analyticalImg}
             alt="analytical"
           />
-          </div>
         </LazyLoad>
         </div>
         <h2>Analytical and Systematic Approach</h2>
@@ -34,9 +36,10 @@ const Experience = () => {
       </div>
       <div className="section-skill">
         <LazyLoad>
-        <div className="responsive-container">
-          <img className="section-skill-image" src={patternImg} alt="pattern" />
-          </div>
+        <ReactImageAppear 
+
+animation="zoomIn"
+animationDuration="1s" className="section-skill-image" src={patternImg} alt="pattern" />
         </LazyLoad>
         <h2>Great Pattern Recognition</h2>
         <p>
@@ -46,9 +49,10 @@ const Experience = () => {
       </div>
       <div className="section-skill">
         <LazyLoad>
-        <div className="responsive-container">
-          <img className="section-skill-image" src={adaptiveImg} alt="" />
-          </div>
+        <ReactImageAppear 
+
+animation="zoomIn"
+animationDuration="1s" className="section-skill-image" src={adaptiveImg} alt="" />
         </LazyLoad>
         <h2>Adaptable</h2>
         <p>

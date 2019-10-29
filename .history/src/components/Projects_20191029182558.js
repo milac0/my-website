@@ -1,5 +1,6 @@
 import React from "react";
 import LazyLoad from "react-lazyload";
+import Image from 'react-shimmer'
 
 import quoteImg from "../images/quote.PNG";
 import markdownImg from "../images/markdown.PNG";
@@ -24,9 +25,7 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <LazyLoad>
-          <div className="responsive-container">
-            <img className="project-image" src={quoteImg} alt="quote-machine" />
-            </div>
+            <Image className="project-image" src={quoteImg} alt="quote-machine" />
           </LazyLoad>
         </a>
         <p>Hooks, Axios, Material-UI, Lodash, Skeleton</p>
@@ -39,13 +38,11 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <LazyLoad>
-          <div className="responsive-container">
-            <img
+            <Image
               className="project-image"
               src={markdownImg}
               alt="markdown-previewer"
             />
-            </div>
           </LazyLoad>
         </a>
         <p>dangerouslySetInnerHTML, markdown parser</p>
@@ -58,9 +55,7 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <LazyLoad>
-          <div className="responsive-container">
-            <img className="project-image" src={drumImg} alt="drum-machine" />
-            </div>
+            <Image className="project-image" src={drumImg} alt="drum-machine" />
           </LazyLoad>
         </a>
         <p>createRef</p>
@@ -73,13 +68,11 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <LazyLoad>
-          <div className="responsive-container">
-            <img
+            <Image
               className="project-image"
               src={pomodoroImg}
               alt="pomodoro clock"
             />
-            </div>
           </LazyLoad>
         </a>
         <p>FortAwesome, Moment, Lodash</p>
@@ -92,13 +85,11 @@ const Projects = () => {
           rel="noopener noreferrer"
         >
           <LazyLoad>
-          <div className="responsive-container">
             <img
               className="project-image"
               src={thissiteImg}
               alt="this website"
             />
-            </div>
           </LazyLoad>
         </a>
         <p>Formik, LazyLoad, EmailJS, CSS Modules</p>

@@ -16,14 +16,12 @@ const Experience = () => {
       <div className="section-skills">
       <div className="section-skill">
       <div className="section-skill-image-container">
-        <LazyLoad>
-          <div className="responsive-container">
+        <LazyLoad height={260}>
           <img
             className="section-skill-image"
             src={analyticalImg}
             alt="analytical"
           />
-          </div>
         </LazyLoad>
         </div>
         <h2>Analytical and Systematic Approach</h2>
@@ -33,10 +31,8 @@ const Experience = () => {
         </p>
       </div>
       <div className="section-skill">
-        <LazyLoad>
-        <div className="responsive-container">
+        <LazyLoad height={260}>
           <img className="section-skill-image" src={patternImg} alt="pattern" />
-          </div>
         </LazyLoad>
         <h2>Great Pattern Recognition</h2>
         <p>
@@ -45,10 +41,8 @@ const Experience = () => {
         </p>
       </div>
       <div className="section-skill">
-        <LazyLoad>
-        <div className="responsive-container">
+        <LazyLoad height={260}>
           <img className="section-skill-image" src={adaptiveImg} alt="" />
-          </div>
         </LazyLoad>
         <h2>Adaptable</h2>
         <p>

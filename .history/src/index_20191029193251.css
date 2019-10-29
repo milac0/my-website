@@ -194,19 +194,20 @@ section {
     margin: 0 auto 1em auto;
 }
 
-.section-skill-image,
-.project-image {
-  height: 100%;
-  width: 100%;
+.section-skill-image {
+  display: block;
+  max-width: 70%;
+  height: auto;
   position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 article {
   background: #F8F8F9;
-   padding: 1em;
+  padding: 1em 2em 0.5em 1.5em;
   margin-bottom: 0.5em;
 }
 
@@ -224,10 +225,10 @@ article h2 {
 }
 
 .project-image {
-  width: 70%;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+  height: auto;
   cursor: pointer;
   border: 1px solid #fff;
   box-shadow: 10px 10px 5px #ccc;
@@ -309,18 +310,22 @@ footer {
     flex: 1 1 200px;
     padding: 1em;
   }
+
+  .section-skill-image {
+    height: auto; 
+    max-width: 100%; 
+  }
+
   .projects {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 0.5em;
+    grid-template-columns: repeat(auto-fill,minmax(320px, 1fr));
    }
-   .projects article {
-    margin: 0;
-}
-}
 
-@media (min-width:1040px) {
-  .projects {
-    grid-template-columns: repeat(3, 1fr);
+   .projects article {
+    margin: 0.5em;
+  }
+
+   .project-image {
+     max-width: 100%;
    }
 }

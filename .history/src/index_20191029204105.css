@@ -194,8 +194,7 @@ section {
     margin: 0 auto 1em auto;
 }
 
-.section-skill-image,
-.project-image {
+.section-skill-image {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -224,7 +223,11 @@ article h2 {
 }
 
 .project-image {
+  height: 100%;
   width: 70%;
+  position: absolute;
+  left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
   margin: auto;
