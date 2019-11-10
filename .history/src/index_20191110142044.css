@@ -213,7 +213,7 @@ article {
 
 .featured-project {
   position: relative;
-  box-shadow: 0 0 2px 1px #3F3D56;
+  box-shadow: 0 0 2px 2px #3F3D56;
 }
 
 .featured-project-badge {
@@ -222,8 +222,8 @@ article {
   top: -0.6em;
   background: #3F3D56;
   color: #fff;
-  padding: 0.5em;
-  border-radius: 5px;
+  padding: 0.25em;
+  border-radius: 10px;
   font-size: 0.75rem;
   font-weight: 500;
 }

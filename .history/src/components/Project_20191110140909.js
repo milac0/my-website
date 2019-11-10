@@ -1,11 +1,11 @@
 import React from 'react';
 import LazyLoad from 'react-lazyload'
 
-const Project = ({ title, body, src, alt, href, featured }) => {
+const Project = ({ title, body, src, alt, href, featured, new }) => {
     return (
         <article className={featured}>
           <h2>{title}</h2>
-          {featured ? <p className="featured-project-badge">new</p> : null}
+          {{new} || nul}
           <a
             href={href}
             target="_blank"

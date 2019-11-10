@@ -87,7 +87,7 @@ nav ul {
 
 .button-cta,
 .button-home {
-  background: #00AEA0;
+  background: #1f3f30;
   color: #fff;
   padding: 0.75em 2em;
   border: none;
@@ -99,7 +99,7 @@ nav ul {
 
 .button-cta:hover,
 .button-cta:focus {
-  background: #00C1B1;
+  background: #00AEA0;
   color: #1f2e3f;
   cursor: pointer;
 
@@ -209,23 +209,6 @@ article {
   background: #F8F8F9;
    padding: 1em;
   margin-bottom: 0.5em;
-}
-
-.featured-project {
-  position: relative;
-  box-shadow: 0 0 2px 1px #3F3D56;
-}
-
-.featured-project-badge {
-  position: absolute;
-  right: 0.4em;
-  top: -0.6em;
-  background: #3F3D56;
-  color: #fff;
-  padding: 0.5em;
-  border-radius: 5px;
-  font-size: 0.75rem;
-  font-weight: 500;
 }
 
 article p {

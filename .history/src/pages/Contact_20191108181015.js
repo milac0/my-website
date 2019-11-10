@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import FormContact from "../components/FormContact";
@@ -10,14 +10,10 @@ import linkedinIcon from "../images/linkedin-contact.png";
 import phoneIcon from "../images/phone.png";
 
 const Contact = () => {
-useEffect(() => {
-  window.scrollTo(0,0)
-})
-
   return (
     <Fragment>
       <Navbar />
-      <main>
+      <main autofocus>
         <div className={styles.container}>
           <h1 className={styles.contactTitle}>
           You are very welcome to leave a feedback or just to say hello,

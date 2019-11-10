@@ -5,7 +5,6 @@ const Project = ({ title, body, src, alt, href, featured }) => {
     return (
         <article className={featured}>
           <h2>{title}</h2>
-          {featured ? <p className="featured-project-badge">new</p> : null}
           <a
             href={href}
             target="_blank"

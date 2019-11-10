@@ -193,6 +193,7 @@ section {
     padding-bottom: 56.25%; /* 9/16 = aspect ratio of image */
     position: relative;
     margin: 0 auto 1em auto;
+    background: red;
 }
 
 .section-skill-image,

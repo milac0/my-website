@@ -22,7 +22,7 @@ const Projects = () => {
             href="https://webshop-mobile.netlify.com/"
             src={webshopImg}
             alt="mobile-webshop"
-            body="Latest showcase in progress. Redux, React-Router, localStorage"
+            body="Latest showcase. Redux, React-Router, localStorage"
           />
         <Project
           title="Random Quote"

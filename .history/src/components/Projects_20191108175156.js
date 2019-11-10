@@ -16,14 +16,15 @@ const Projects = () => {
         website.
       </p>
       <div className="projects">
-          <Project
-          featured="featured-project"
-            title="Mobile Webshop"
-            href="https://webshop-mobile.netlify.com/"
-            src={webshopImg}
-            alt="mobile-webshop"
-            body="Latest showcase in progress. Redux, React-Router, localStorage"
-          />
+        <div className="featured-project">
+        <Project
+          title="Mobile Webshop"
+          href="https://webshop-mobile.netlify.com/"
+          src={webshopImg}
+          alt="mobile-webshop"
+          body="Latest showcase. Redux, React-Router, localStorage"
+        />
+        </div>
         <Project
           title="Random Quote"
           href="https://quotemachine-milac.netlify.com/"
