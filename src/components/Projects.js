@@ -5,6 +5,7 @@ import webshopImg from "../images/webshop.PNG";
 import pomodoroImg from "../images/pomodoro.PNG";
 import drumImg from "../images/drum.PNG";
 import thissiteImg from "../images/thissite.PNG";
+import movieRouletteImg from '../images/movieRoulette.PNG';
 
 const Projects = () => {
   return (
@@ -16,14 +17,21 @@ const Projects = () => {
         website.
       </p>
       <div className="projects">
-          <Project
+        <Project
           featured="featured-project"
-            title="Mobile Webshop"
-            href="https://webshop-mobile.netlify.com/"
-            src={webshopImg}
-            alt="mobile-webshop"
-            body="Latest showcase in progress. Redux, React-Router, localStorage"
-          />
+          title="Movie Roulette"
+          href="https://movie-roulette.netlify.com/"
+          src={movieRouletteImg}
+          alt="movie-roulette"
+          body="Latest showcase in progress!"
+        />
+        <Project
+          title="Mobile Webshop"
+          href="https://webshop-mobile.netlify.com/"
+          src={webshopImg}
+          alt="mobile-webshop"
+          body="Redux, React-Router, localStorage"
+        />
         <Project
           title="Random Quote"
           href="https://quotemachine-milac.netlify.com/"
